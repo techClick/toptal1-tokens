@@ -9,7 +9,9 @@
 for mac:
     run brew install postgresql
     run psql postgres
-    run CREATE DATABASE tokens
+    run CREATE DATABASE tokens;
     run \q to exit
 for windows:
     ....enter windows method....
+
+5. run npm run dev
