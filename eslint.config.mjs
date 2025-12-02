@@ -25,7 +25,8 @@ export default defineConfig([
       "no-nested-ternary": 0,
       "react/function-component-definition": 0,
       "react/no-unstable-nested-components": 0,
-      "react/require-default-props": 0
+      "react/require-default-props": 0,
+      "@typescript-eslint/no-empty-object-type": 0
     }
   }
 ]);
