@@ -24,7 +24,7 @@
 
     Open pgAdmin or psql command line.
 
-    Create the database: `CREATE DATABASE tokens;`
+    Create the database, run in project terminal: `CREATE DATABASE tokens;`
 
     Ensure PostgreSQL service is running.
 
