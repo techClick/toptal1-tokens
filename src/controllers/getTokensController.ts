@@ -1,5 +1,6 @@
 import { pool, initDb } from '@/lib/db';
 import { Token } from '@/types/token';
+import { removeExpiredTokens } from './cleanupController';
 
 let dbInitialized = false;
 
@@ -12,6 +13,8 @@ async function ensureDb() {
 
 export async function getTokensByUserId(userId: string): Promise<Token[]> {
   await ensureDb();
+  
+  await removeExpiredTokens();
   
   const result = await pool.query(
     'SELECT id, user_id, scopes, created_at, expires_at, token FROM tokens WHERE user_id = $1 AND expires_at > NOW()',
