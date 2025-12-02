@@ -3,20 +3,21 @@
 ## How to run
 1. open the project in vscode,
 2. open a new terminal,
-3. run npm install
+3. run `npm install`
 
 4. install postgres;
-for mac:
-    brew install postgresql
-    brew services start postgresql
-    psql postgres
-    CREATE DATABASE tokens;
-    \q
+for mac run:
+    `brew install postgresql`
+    `brew services start postgresql`
+    `psql postgres`
+    `CREATE DATABASE tokens;`
+    `\q`
 for windows:
     Download PostgreSQL from https://www.postgresql.org/download/windows/
     Run the installer and follow the setup steps.
     Open pgAdmin or psql command line.
-    Create the database: CREATE DATABASE tokens;
+    Create the database: `CREATE DATABASE tokens;`
     Ensure PostgreSQL service is running.
 
-5. run npm run dev
+5. run `npm run dev`
+6. View the site on `http://localhost:3000`
