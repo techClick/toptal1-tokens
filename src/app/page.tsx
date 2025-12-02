@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useTokens } from '@/hooks/useTokens';
 import { getCreateTokenFields } from '@/utils/formFields';
 

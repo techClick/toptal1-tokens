@@ -54,6 +54,7 @@ export function useTokens({ userId, scopes, expiresInMinutes, searchUserId }: Us
         setMessage('Error: ' + data.error);
       }
     } catch (err) {
+      console.log(err)
       setMessage('Error creating token');
     }
   }
@@ -69,6 +70,7 @@ export function useTokens({ userId, scopes, expiresInMinutes, searchUserId }: Us
         setMessage('Error: ' + data.error);
       }
     } catch (err) {
+      console.log(err)
       setMessage('Error fetching tokens');
     }
   }
