@@ -14,7 +14,7 @@
 
     `CREATE DATABASE tokens;`
 
-    `\q`
+    `\q` to exit
 
 4. install postgres for Windows;
 
@@ -25,7 +25,7 @@
     Open pgAdmin or psql command line.
 
     Create the database: `CREATE DATABASE tokens;`
-    
+
     Ensure PostgreSQL service is running.
 
 5. run `npm run dev`
