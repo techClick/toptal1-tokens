@@ -21,3 +21,9 @@ for windows:
 
 5. run `npm run dev`
 6. View the site on `http://localhost:3000`
+
+## Stack used
+`Node.js` and `PostgreSQL`
+
+## Assumptions or simplifications you made
+The entire app was designed to be `simple`
